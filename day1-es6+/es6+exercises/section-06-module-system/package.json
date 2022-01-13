@@ -1,0 +1,13 @@
+{
+    "name": "section-06-module-system",
+    "version": "1.0.0",
+    "description": "",
+    "main": "test.js",
+    "scripts": {
+        "start": "node test.js"
+    },
+    "type": "module",
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
