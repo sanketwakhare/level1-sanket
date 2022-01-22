@@ -1,0 +1,54 @@
+body {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: lightgray
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px gray;
+    border-radius: 5px;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    font-size: 2rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ededed;
+}
+
+.card-title {
+    display: flex;
+    flex-grow: 1;
+}
+
+.card-close {
+    display: flex;
+}
+
+.card-content {
+    padding: 0.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid #ededed;
+}
+
+.card-footer {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+button {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: gray;
+    color: white;
+}
