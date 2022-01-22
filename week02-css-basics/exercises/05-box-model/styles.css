@@ -1,0 +1,27 @@
+body {
+    margin: 50px;
+}
+
+.box1 {
+    height: 100px;
+    width: 200px;
+    background-color: blueviolet;
+    color: whitesmoke;
+    /* border-box will include everything in the original dimensions of the box */
+    box-sizing: border-box;
+    padding: 0.5rem;
+    margin: 1rem;
+    border: 10px solid burlywood
+}
+
+.box2 {
+    height: 100px;
+    width: 200px;
+    background-color: blueviolet;
+    color: whitesmoke;
+    /* content-box will maintain the original dimensions of the box */
+    box-sizing: content-box;
+    padding: 0.5rem;
+    margin: 1rem;
+    border: 10px solid burlywood
+}
