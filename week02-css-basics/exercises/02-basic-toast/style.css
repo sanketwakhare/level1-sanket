@@ -11,9 +11,10 @@
 }
 
 .toast {
-    position: fixed;
-    background-color: rgb(188, 226, 131);
+    position: absolute;
+    background-color: greenyellow;
     margin-left: 45%;
     margin-top: 25rem;
     z-index: 1;
+    padding: 1rem;
 }
