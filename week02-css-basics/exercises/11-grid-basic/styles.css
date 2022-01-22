@@ -1,0 +1,35 @@
+body {
+    margin: 1rem;
+    background-color: lightgray;
+}
+
+.container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 300px 1fr;
+        font-size: 1.5rem;
+    }
+}
+
+.box {
+    padding: 1rem;
+    background-color: darkviolet;
+    color: white;
+}
+
+.box:nth-child(2) {
+    grid-row-start: 1;
+}
+
+.box:nth-child(5) {
+    background-color: red;
+    grid-column-start: 1;
+}
