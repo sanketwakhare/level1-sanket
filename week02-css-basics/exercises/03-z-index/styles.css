@@ -1,0 +1,30 @@
+body {
+    margin: 50px;
+}
+
+.box {
+    position: relative;
+    height: 10rem;
+    width: 10rem;
+    background-color: lightcoral;
+    color: whitesmoke;
+    padding: 0.5rem;
+}
+
+.box:nth-child(1) {
+    background-color: red;
+    margin-top: -2rem;
+    z-index: 1;
+}
+
+.box:nth-child(2) {
+    background-color: green;
+    margin-top: -2rem;
+    z-index: 2;
+}
+
+.box:nth-child(3) {
+    background-color: blueviolet;
+    margin-top: -2rem;
+    z-index: 3;
+}
