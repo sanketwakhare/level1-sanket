@@ -4,17 +4,19 @@ body {
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
     width: 300px;
     font-family: 'Courier New', Courier, monospace;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 0 5px black;
 }
 
 .card-image {}
 
 img {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .card-header {
