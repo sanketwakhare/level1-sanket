@@ -1,0 +1,38 @@
+body {
+    margin: 1rem;
+    background-color: lightgoldenrodyellow;
+}
+
+.container {
+    display: grid;
+    gap: 1rem;
+    grid-template-areas: ""
+}
+
+header {
+    background-color: navy;
+    color: white;
+    grid-area: header;
+    padding: 1rem;
+}
+
+footer {
+    background-color: navy;
+    color: white;
+    grid-area: footer;
+    padding: 1rem;
+}
+
+aside {
+    background-color: green;
+    color: white;
+    grid-area: aside;
+    padding: 1rem;
+}
+
+main {
+    background-color: green;
+    color: white;
+    grid-area: main;
+    padding: 1rem;
+}
