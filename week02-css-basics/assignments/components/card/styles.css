@@ -51,12 +51,17 @@ img {
     width: 1rem;
 }
 
+.card-button:hover {
+    transform: scale(1.1);
+}
+
 button {
     text-decoration: none;
     background-color: white;
     border: none;
     color: darkviolet;
     font-size: 1rem;
+    font-weight: bold;
 }
 
 button:hover {
