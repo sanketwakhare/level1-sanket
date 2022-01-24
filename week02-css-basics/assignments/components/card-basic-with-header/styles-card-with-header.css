@@ -3,7 +3,7 @@ body {
     padding: 1rem;
 }
 
-.card {
+.card-with-header {
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -12,15 +12,21 @@ body {
     box-shadow: 0 0 5px black;
 }
 
+.card-image {
+    order: 2;
+    border-radius: 50px;
+}
+
 img {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 }
 
 .card-header {
     display: flex;
     flex-direction: column;
     padding: 10px;
+    order: 1;
 }
 
 .card-title {
@@ -29,7 +35,8 @@ img {
 }
 
 .card-content {
-    padding: 10px
+    padding: 10px;
+    order: 3;
 }
 
 .card-footer {
@@ -38,6 +45,7 @@ img {
     flex-wrap: nowrap;
     justify-content: space-between;
     padding: 10px;
+    order: 4;
 }
 
 .card-button {
